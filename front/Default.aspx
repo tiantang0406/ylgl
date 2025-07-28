@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="ylgl.Default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="ylgl.front.Default.Default" %>
 
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -128,23 +128,22 @@
         <!-- 项目特色 -->
         <div class="features-section">
     <h2>项目特色</h2>
-    <p id="feature-description">请选择一张图片查看简介</p>
-    
+    <asp:Label ID="lblDescription" runat="server" Text="请选择一张图片查看简介" CssClass="feature-description" />
     <div class="features-grid">
-        <div class="feature-item" onclick="showDescription(0)">
-            <div class="image-box">图片1</div>
+        <div class="feature-item">
+            <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="~/images/img1.png" AlternateText="图片1" CssClass="image-box" OnClick="ImageButton1_Click" />
             <p>简介1</p>
         </div>
-        <div class="feature-item" onclick="showDescription(1)">
-            <div class="image-box">图片2</div>
+        <div class="feature-item">
+            <asp:ImageButton ID="ImageButton2" runat="server" ImageUrl="~/images/img2.png" AlternateText="图片2" CssClass="image-box" OnClick="ImageButton2_Click" />
             <p>简介2</p>
         </div>
-        <div class="feature-item" onclick="showDescription(2)">
-            <div class="image-box">图片3</div>
+        <div class="feature-item">
+            <asp:ImageButton ID="ImageButton3" runat="server" ImageUrl="~/images/img3.png" AlternateText="图片3" CssClass="image-box" OnClick="ImageButton3_Click" />
             <p>简介3</p>
         </div>
-        <div class="feature-item" onclick="showDescription(3)">
-            <div class="image-box">图片4</div>
+        <div class="feature-item">
+            <asp:ImageButton ID="ImageButton4" runat="server" ImageUrl="~/images/img4.png" AlternateText="图片4" CssClass="image-box" OnClick="ImageButton4_Click" />
             <p>简介4</p>
         </div>
     </div>

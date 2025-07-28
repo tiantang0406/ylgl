@@ -13,14 +13,34 @@ namespace ylgl
 
     public partial class Default
     {
-
         /// <summary>
         /// form1 控件。
         /// </summary>
-        /// <remarks>
-        /// 自动生成的字段。
-        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-        /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+
+        /// <summary>
+        /// lblDescription 控件。
+        /// </summary>
+        protected global::System.Web.UI.WebControls.Label lblDescription;
+
+        /// <summary>
+        /// ImageButton1 控件。
+        /// </summary>
+        protected global::System.Web.UI.WebControls.ImageButton ImageButton1;
+
+        /// <summary>
+        /// ImageButton2 控件。
+        /// </summary>
+        protected global::System.Web.UI.WebControls.ImageButton ImageButton2;
+
+        /// <summary>
+        /// ImageButton3 控件。
+        /// </summary>
+        protected global::System.Web.UI.WebControls.ImageButton ImageButton3;
+
+        /// <summary>
+        /// ImageButton4 控件。
+        /// </summary>
+        protected global::System.Web.UI.WebControls.ImageButton ImageButton4;
     }
 }
